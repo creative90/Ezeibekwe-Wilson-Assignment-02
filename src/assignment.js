@@ -19,10 +19,9 @@ function sumOfNumbers(arrayOfNumbers) {
        
     sum += value;
     
-  len =arrayOfNumbers.length; 
   }
     
- return "The sum of the Numbers is:" +" "+sum +" " +"and the length of the Array is:" +" " + len  
+ return sum 
   
 }
  assignment.sumOfNumbers = sumOfNumbers;
@@ -43,7 +42,7 @@ for (const value of arrayOfNumbers) {
       count++
   }
 }
-  return "The count of Even Numbers is: " +count +" "+ "and the length of the array is:" + "" + arrayOfNumbers.length;
+  return count
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
@@ -71,7 +70,7 @@ let newArray = []
       newArray.push(Math.trunc(fahrenheit++))
       }
  }
-    return "the length of the array is:" + " " +arrayOfNumbers.length + " "+ ""+ "and the array of converted temperatures in Fahrenheit is:" + " " + newArray 
+    return newArray 
 }
  assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
